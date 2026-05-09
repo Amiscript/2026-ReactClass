@@ -4,7 +4,7 @@ import logo from '../assets/33.jpg'
 
 function Navbar() {
   return (
-    <div className="flex justify-between items-center p-4 pl-16  pr-16 bg-amber-950 text-white">
+    <div className="flex justify-between items-center p-4 pl-16  pr-16 bg-amber-950 text-white mb-7">
 
  {/* <ul>
     <li><a href="/">Home</a></li>
@@ -30,7 +30,7 @@ function Navbar() {
         <Link to="/Blog">Blog</Link>
 
         <div>
-            <button className="bg-blue-500 px-20 py-4 ">GetStarted</button>
+            <button className="bg-orange-500 px-20 py-4 rounded-md ">GetStarted</button>
         </div>
     </div>
   )

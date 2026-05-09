@@ -7,7 +7,7 @@ export default function Home({name, surname}) {
       {/* property- props */}
       <h1>Home</h1>
       {/* <p>Welcome to the Home page! Mr {props.name}, {props.surname}  </p> */}
-      <p>Welcome to the Home page! Mr {name}, {surname}  </p>
+      <p className="text-7xl font-bold text-center text-balance break-all">Welcome to the Home <br/> page! Mr {name}, {surname}  </p>
     </div>
   )
 }

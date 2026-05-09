@@ -25,7 +25,7 @@ function App() {
 
 
   return (
-    <div>
+    <div className="bg-gradient-to-r from-amber-950 via-amber-500 to-amber-950 h-screen ">
       <Navbar/>
       <Routes>
        <Route path='/' element={<Home name="John" surname="Doe"/>}/>
