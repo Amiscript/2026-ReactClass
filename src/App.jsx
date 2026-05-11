@@ -7,6 +7,7 @@ import Navbar from './component/Navbar'
 import Pricing from './component/Pricing'
 import Blog from './component/Blog'
 import Contact from './component/Contact'
+
 import { Routes, Route } from 'react-router-dom'
 
 // BrowserRouter is a component that provides routing capabilities to the application. It allows you to define different routes and navigate between them without reloading the page.
@@ -35,6 +36,7 @@ function App() {
        <Route path='/About' element={<AboutUs/>}/>
         <Route path='*' element={<NotFound/>}/>
       </Routes>
+     
     </div>
   )
 }
