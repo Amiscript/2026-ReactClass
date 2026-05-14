@@ -4,7 +4,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 function Path() {
   return (
-<div className="mt-20 ">
+<div className="mt-20 z-10 ">
             <div className="mt-4 flex  justify-center relative ">
  <img src={image} alt="Description" className="h-100 w-200 rounded-lg border-8 border-gray-900" />
  <div classNme="">

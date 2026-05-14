@@ -1,10 +1,11 @@
 // import React from 'react'
 import {Link} from 'react-router-dom'
 import logo from '../assets/33.jpg'
+import Drawer  from '../util/drawer'
 
 function Navbar() {
   return (
-    <div className="flex justify-between items-center p-4 pl-16  pr-16 bg-amber-950 text-white mb-7">
+    <div className="flex justify-between items-center p-4 pl-16  pr-16 bg-amber-950 text-white mb-7 fixed top-0 right-0 left-0 z-40">
 
  {/* <ul>
     <li><a href="/">Home</a></li>
@@ -28,6 +29,7 @@ function Navbar() {
         <Link to="/Contact">Contact Us</Link>
         <Link to="/Pricing">Pricing</Link>
         <Link to="/Blog">Blog</Link>
+      <Drawer/>
 
         <div>
             <button className="bg-orange-500 px-20 py-4 rounded-md ">GetStarted</button>

@@ -4,7 +4,7 @@ import image from '../assets/33.jpg'
 
 function position() {
   return (
-    <div className="mt-4 flex  justify-center relative ">
+    <div className="mt-4 flex  justify-center relative z-10 ">
         <div className="bg-red-600 h-20 w-20 rounded-full absolute top-0 left-95 z-40">
             <img src={image} alt="Description" className=" object-fit h-full w-full rounded-full" />
         </div>

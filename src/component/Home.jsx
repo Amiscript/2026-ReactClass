@@ -1,10 +1,12 @@
 import Position from '../component/position'
 import Path from "../component/path"
+import Boxes from '../component/boxes'
+
 
 export default function Home({name, surname}) {
 
   return (
-    <div>
+    <div className="overflow-auto h-screen">
       {/* property- props */}
       <h1>Home</h1>
       {/* <p>Welcome to the Home page! Mr {props.name}, {props.surname}  </p> */}
@@ -12,6 +14,7 @@ export default function Home({name, surname}) {
 
        <Position/>
       <Path/>
+      <Boxes/>
     </div>
   )
 }
