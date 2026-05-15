@@ -7,7 +7,7 @@ function Path() {
 <div className="mt-20 z-10 ">
             <div className="mt-4 flex  justify-center relative ">
  <img src={image} alt="Description" className="h-100 w-200 rounded-lg border-8 border-gray-900" />
- <div classNme="">
+ <div>
     <div className ="absolute bottom-3 left-130 bg-amber-700 text-white px-8 py-4 rounded-lg">
  Modern Dashboard Interface
     </div>

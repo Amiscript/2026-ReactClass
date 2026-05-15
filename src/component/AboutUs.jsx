@@ -1,8 +1,8 @@
-
+import React from 'react'
 
 function AboutUs() {
   return (
-    <div>AboutUs</div>
+    <div className="mt-30 text-4xl">AboutUs</div>
   )
 }
 

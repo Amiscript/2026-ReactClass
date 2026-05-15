@@ -1,6 +1,7 @@
 import Position from '../component/position'
 import Path from "../component/path"
 import Boxes from '../component/boxes'
+import Hooks from '../component/Hooks'
 
 
 export default function Home({name, surname}) {
@@ -15,6 +16,7 @@ export default function Home({name, surname}) {
        <Position/>
       <Path/>
       <Boxes/>
+      <Hooks/>
     </div>
   )
 }
