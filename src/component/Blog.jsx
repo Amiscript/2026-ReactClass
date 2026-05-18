@@ -1,8 +1,11 @@
 // import React from 'react'
+import InputField from '../component/inputfield'
 
 function Blog() {
   return (
-    <div>Blog</div>
+    <div className="mt-40">
+      <InputField />
+    </div>
   )
 }
 
